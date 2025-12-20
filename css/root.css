@@ -1,0 +1,62 @@
+/*
+
+    Let's define some variables!
+
+*/
+
+@font-face {
+    font-family: 'Averia Libre';
+    src: local('Averia Libre'),
+    url("../AveriaLibre-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Zara';
+    src: local('Zara'),
+    url("../Zara-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Crédible';
+    src: local('Crédible'),
+    url("../Crédible-Regular.woff") format("woff");
+}
+
+:root {
+    /* Unchanging */
+    --font      : 'Averia Libre', sans-serif; /* Verdana, sans-serif */
+    --font-alt  : 'Crédible', serif, cursive;
+    --font-alt2 : 'Zara', serif;
+    --bg-image  : url("../bg_2.webp");
+	--font-size	: calc(1rem + (1vw / 5));
+
+    /* -- Colors -- */
+    --bg-color  : #ADB6DA; /* #2f1b2b */
+    --color     : #1f161d;
+    --back      : #E1EAE9; /* #CCEDCD */
+    --accent    : #132B06;
+
+    /* Headings */
+    --head-1    : #003959;
+    --head-2    : #004754;
+    --head-3    : #004C4E;
+    --head-4    : #005237;
+    --head-5    : #004E47;
+    --head-6    : #0E4E00;
+}
+
+[saved-theme="dark"] {
+    /* -- Colors -- */
+    --bg-color  : var(--head-2);
+    --color     : #D2DFCA;
+    --back      : #0A0809; /* #1f161d #1E0C08 */
+    --accent    : #DBFFC5;
+
+    /* Headings */
+    --head-1    : #B6E1F7;
+    --head-2    : #ADB6DA;
+    --head-3    : #85B4C2;
+    --head-4    : #7CC2C0;
+    --head-5    : #7DD29F;
+    --head-6    : #85E3A2;
+}

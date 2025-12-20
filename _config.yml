@@ -1,0 +1,28 @@
+title: Shroom.Ink
+author: RodFireProductions
+email: howdy@shroom.ink
+url: https://shroom.ink
+github_repo_url: https://github.com/RodFireProductions/Shroom.ink
+language: en-us
+description: "Drown in the ink that oozes from the inkiest of caps. Be consumed and ripped apart by the holiest of fungi."
+accent_color: "#8F9FBB"
+
+## ## ## ##
+include     : ["_pages", "_decay", "_static", "_thoughts"]
+collections :
+    pages       :
+        output: true
+        permalink: /:path
+    decay    :
+        output: true
+        permalink: /decay/:path/
+    static      :
+        output: true
+        permalink: /:path
+    thoughts    :
+        output: true
+        permalink: /thoughts/:path/
+
+## ## ## ##
+plugins:
+  - jekyll-redirect-from

@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 800px) {
+    .greenhouse-shroom { grid-template-columns: 1fr !important; }
+    .greenhouse { grid-template-columns: 1fr !important; }
+}
+
+.greenhouse-shroom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    text-align: center;
+
+    grid-gap: 1.5em;
+}
+
+.greenhouse-shroom textarea {
+    background: var(--head-2);
+    color: var(--back);
+
+    border: none;
+}
+
+.greenhouse {
+    max-width: calc(100% - 20px);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-gap: 2em;
+}
+
+.greenhouse iframe, .greenhouse-shroom iframe {
+    border: none;
+    outline: solid 3px var(--head-3);
+    outline-offset: 3px;
+    margin: 5px;
+
+    margin: auto;
+
+    border: none;
+}

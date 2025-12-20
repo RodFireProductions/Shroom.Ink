@@ -1,0 +1,26 @@
+<!doctype html>
+<html saved-theme="dark" lang="{{ site.language }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href={{ "css/main.css" | relative_url }}>
+        <script src={{ "js/darkmode.js" | relative_url }} charset="utf-8"></script>
+        <!-- Socials -->
+        <link href="mailto:howdy@shroom.ink" rel="me">
+        <link href="https://github.com/RodFireProductions" rel="me">
+        <!---->
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <div id="page">
+            {% include header.html %}
+            <main>
+                    {{ content }}
+            </main>
+            <p class="center">🍄🌱🍄</p>
+            <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=rodfire8181" defer></script>
+        </div>
+        {% include footer.html %}
+        {% include h-card.html %}
+    </body>
+</html>

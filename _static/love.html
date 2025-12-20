@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US" saved-theme="dark">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shrooms Love You</title>
+
+      <link rel="stylesheet" href="./css/main.css">
+      <style>
+          body {
+              display: block;
+          }
+          #page {
+              grid-area: none;
+              margin: 1em auto;
+              width: 60%;
+          }
+          img {
+              display: block;
+              margin: 1em auto;
+          }
+          .floaties {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+          }
+      </style>
+    </head>
+    <body>
+        <main id="page">
+            <h1 class="center">You Are Loved</h1>
+
+            <div class="floaties">
+                <img src="./images/hearts.gif" alt="Floating 3D Hearts">
+                <img src="./images/CloudyShroom.gif" alt="Dithered mushroom sitting in clouds.">
+                <img style="transform: scaleX(-1);" src="./images/hearts.gif" alt="Floating 3D Hearts">
+            </div>
+
+            <p class="center">
+                The mushrooms and fungi here love you greatly. You're greater than you think you are.
+            </p>
+            <p class="center">
+                Treat yourself well and have a lovely <span id="time">life</span>.
+            </p>
+
+            <div class="floaties">
+                <img src="./images/mushrooms.webp" alt="Mushrooms">
+                <img src="./images/mushrooms.webp" alt="Mushrooms">
+                <img src="./images/mushrooms.webp" alt="Mushrooms">
+            </div>
+
+            <div class="center">
+                Head back to the <a href="https://shroom.ink">main site</a>.
+            </div>
+        </main>
+        <script type="text/javascript">
+            let now = new Date();
+        	let time;
+
+        	if ( now.getHours() <= 11 && now.getHours() >= 0 ) { time = "morning"; }
+        	else if ( now.getHours() <= 19 && now.getHours() >= 12 ) { time = "afternoon"; }
+        	else { time = "night"; }
+
+            document.getElementById("time").innerHTML = time;
+
+        </script>
+    </body>
+</html>
