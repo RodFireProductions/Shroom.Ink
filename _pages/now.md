@@ -2,7 +2,7 @@
 layout: page
 title: Now
 date: 2025-12-19
-permalink: now.html
+permalink: now/
 ---
 
 This is my [now page](https://nownownow.com/about). Last updated on {{ page.date | date: "%b %d %Y" }}.
