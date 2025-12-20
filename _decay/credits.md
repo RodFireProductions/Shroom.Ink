@@ -4,7 +4,7 @@ title: Credits
 permalink: /decay/credits/
 ---
 
-Shroom.Ink runs on [Jekyll](https://jekyllrb.com/) and is hosted on [Vercel](https://vercel.com/).
+Shroom.Ink runs on [Jekyll](https://jekyllrb.com/) and is hosted on GitHub Pages (I know, I know).
 
 ### Images
 
