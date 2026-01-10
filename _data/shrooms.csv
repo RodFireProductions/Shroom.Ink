@@ -1,0 +1,20 @@
+number,id,name,url,emoji
+1,amaCok,Amanita cokeri,https://www.mushroomexpert.com/amanita_cokeri.html
+2,amaMus,Amanita muscaria,https://www.mushroomexpert.com/amanita_muscaria_muscaria.html,🍄
+3,canMin,Cantharellus minor,https://www.mushroomexpert.com/cantharellus_minor.html
+4,copCom,Coprinus comatus,https://www.mushroomexpert.com/coprinus_comatus.html
+5,entVio,Entoloma violaceum,https://www.mushroomexpert.com/entoloma_violaceum.html
+6,phaInd,Phallus indusiatus,https://www.mushroomexpert.com/phallus_indusiatus.html
+7,hydPec,Hydnellum peckii,https://en.wikipedia.org/wiki/Hydnellum_peckii
+8,laeSul,Laetiporus sulphureus,https://www.mushroomexpert.com/laetiporus_sulphureus.html
+9,ophUni,Ophiocordyceps unilateralis,https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis
+10,spaVel,Spathulariopsis velutipes,https://www.mushroomexpert.com/spathulariopsis_velutipes.html
+11,xylHyp,Xylaria hypoxylon,https://www.mushroomexpert.com/xylaria_hypoxylon.html
+12,xylPol,Xylaria polymorpha,https://www.mushroomexpert.com/xylaria_polymorpha.html
+13,amaOcr,Amanita ocreata,https://en.wikipedia.org/wiki/Amanita_ocreata
+14,mycInt,Mycena interrupta,https://en.wikipedia.org/wiki/Mycena_interrupta
+15,ompIll,Omphalotus illudens,https://www.mushroomexpert.com/omphalotus_illudens.html,🎃
+16,ramStr,Ramaria stricta,https://www.mushroomexpert.com/ramaria_stricta.html
+17,rei,Reishi,https://en.wikipedia.org/wiki/Lingzhi_(mushroom)
+18,rorAus,Roridomyces austrororidus,https://en.wikipedia.org/wiki/Roridomyces_austrororidus
+19,rusEme,Russula emetica,https://en.wikipedia.org/wiki/Russula_emetica
