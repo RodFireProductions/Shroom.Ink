@@ -18,5 +18,5 @@ Would you like to hire a poor unemployed shroom? [Now you can!](https://shroom.i
 These shrooms are dedicated to protecting your valuable site.
 
 <div class="button">
-<a href="https://shroom.ink/decay/adopt-a-shroom/#hire-a-guard"><img src="/images/adoptables/hire-a-guard.gif" alt="Need a site protector? Hire a shroom!"></a>
+<a href="https://shroom.ink/decay/adopt-a-shroom/#hire-a-guard"><img src='{{ "src/img/adoptables/hire-a-guard.gif" | relative_url}}' alt="Need a site protector? Hire a shroom!"></a>
 </div>

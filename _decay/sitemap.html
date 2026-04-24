@@ -1,0 +1,22 @@
+---
+layout: page
+title: Sitemap
+description: All the pages of this site.
+permalink: /sitemap.html
+---
+
+<ul>
+    {% for page in site.pages %}
+    <li><a href="{{page.url}}">{{ page.title }}</a></li>
+    {% endfor %}
+    {% for page in site.decay %}
+    <li><a href="{{page.url}}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Thoughts (old blog, see: <a target="_blank" href="https://blog.shroom.ink">current</a>)</h3>
+<ul>
+    {% for page in site.thoughts %}
+    <li><a href="{{page.url}}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>

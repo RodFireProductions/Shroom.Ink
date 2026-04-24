@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shrines
-permalink: /decay/shrines/
+permalink: /shrines.html
 ---
 
 My shrines!

@@ -15,5 +15,5 @@ More projects. More projects. More projects. More projects.
 
 The blog's button:
 <div class="buttons">
-<a title="The webmaster's blog." target="_blank" href="https://blog.shroom.ink"><img src="/images/buttons/A Demigods Rambling.gif"></a>
+<a title="The webmaster's blog." target="_blank" href="https://blog.shroom.ink"><img src='{{ "src/img/buttons/A Demigods Rambling.gif" | relative_url }}'></a>
 </div>

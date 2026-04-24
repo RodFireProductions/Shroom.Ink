@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Greenhouse
-permalink: /decay/greenhouse/
+permalink: /greenhouse.html
 ---
 
 Original idea by <a target="_blank" href="https://missmoss.neocities.org/webgardens/">Miss Moss</a>.
@@ -49,7 +49,7 @@ Original idea by <a target="_blank" href="https://missmoss.neocities.org/webgard
 
 <iframe src="https://skykristal.art/Links/Webgardens/index.html " height="250px" width="250px" scrolling="no"></iframe>
 
-<iframe src="https://bananaboots.neocities.org/webgarden.html" height="250px" width="250px" scrolling="no"></iframe>
+<!-- <iframe src="https://bananaboots.neocities.org/webgarden.html" height="250px" width="250px" scrolling="no"></iframe> -->
 
 <iframe src="https://dxcccii.neocities.org/mywebgarden" height="250px" width="250px" scrolling="no"></iframe>
 
@@ -57,9 +57,8 @@ Original idea by <a target="_blank" href="https://missmoss.neocities.org/webgard
 
 <iframe src="https://theenderdraco.neocities.org/webgarden" height="250px" width="250px" scrolling="no"></iframe>
 
-<iframe src="https://mworld.neocities.org/webgarden" height="250px" width="250px" scrolling="no"></iframe>
-
 <iframe src="https://pip-pepping.neocities.org/web-garden/webgarden.html" height="250px" width="250px" scrolling="no"></iframe>
+
 <iframe src="https://larvapuppy.neocities.org/webgarden" height="250px" width="250px" scrolling="no"></iframe>
 
 

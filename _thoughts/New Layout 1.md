@@ -16,15 +16,15 @@ Quite a few of the root colors where adjusted as well.
 <div class="two_grid">
 <div class="col_1">
     <p>The old layout:</p>
-    <img src="/images/thoughts/old_layout.webp">
+    <img src='{{ "src/img/thoughts/old_layout.webp" | relative_url }}'>
 </div>
 
 <div class="col_2">
     <p>The new layout:</p>
-    <img src="/images/thoughts/new_layout.webp">
+    <img src='{{ "src/img/thoughts/new_layout.webp" | relative_url }}'>
 </div>
 </div>
 
 ## New Mascot
 
-Shroom.Ink now has a Mascot! Faer name is Inkle. Learn more about faer <a href="/decay/inkle/">here</a>.
+Shroom.Ink now has a Mascot! Faer name is Inkle. Learn more about faer <a href='{{ "inkle.html" | relative_url }}'>here</a>.
