@@ -1,0 +1,125 @@
+---
+permalink: guard.html
+---
+<!DOCTYPE html>
+<html lang="en-US" saved-theme="dark">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shroom.Ink Webgarden</title>
+
+      <link rel="stylesheet" href="https://shroom.ink/css/main.css">
+      <style>
+          body {
+              background: var(--back);
+          }
+      </style>
+    </head>
+
+    <body>
+        <main id="adoptGuard">
+            <a target="_blank" href="https://shroom.ink/adopt-a-shroom/"><img id="shroomImg" src="https://shroom.ink/src/img/adoptables/Amanita_muscaria.webp" alt="Mushroom Protector"></a>
+            <div><span id="site">This site</span> is guarded by a <span id="shroom">mushroom</span>.</div>
+        </main>
+    </body>
+
+    <script src="https://shroom.ink/js/urlvalue.js" charset="utf-8"></script>
+    <script>
+        let values = urlValues();
+        let shroomName = "";
+        let shroomFile = "";
+
+        if (values.site != "" && values.site != null) {
+            document.getElementById('site').innerHTML = values.site;
+        } else {
+            document.getElementById('site').innerHTML = "This site";
+        }
+
+        switch (values.shroom) {
+            case "1":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/amanita_cokeri.html">Amanita cokeri</a>';
+                shroomFile = "Amanita_cokeri";
+                break;
+            case "2":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/amanita_muscaria_muscaria.html">Amanita muscaria</a>';
+                shroomFile = "Amanita_muscaria";
+                break;
+            case "3":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/cantharellus_minor.html">Cantharellus minor</a>';
+                shroomFile = "Cantharellus_minor";
+                break;
+            case "4":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/coprinus_comatus.html">Coprinus comatus</a>';
+                shroomFile = "Coprinus_comatus";
+                break;
+            case "5":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/entoloma_violaceum.html">Entoloma violaceum</a>';
+                shroomFile = "Entoloma_violaceum";
+                break;
+            case "6":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/phallus_indusiatus.html">Phallus indusiatus</a>';
+                shroomFile = "Phallus_indusiatus";
+                break;
+            case "7":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Hydnellum_peckii">Hydnellum peckii</a>';
+                shroomFile = "Hydnellum_peckii";
+                break;
+            case "8":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/laetiporus_sulphureus.html">Laetiporus sulphureus</a>';
+                shroomFile = "Laetiporus_sulphureus";
+                break;
+            case "9":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis">Ophiocordyceps unilateralis</a>';
+                shroomFile = "Ophiocordyceps_unilateralis";
+                break;
+            case "10":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/spathulariopsis_velutipes.html">Spathulariopsis velutipes</a>';
+                shroomFile = "Spathulariopsis_velutipes";
+                break;
+            case "11":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/xylaria_hypoxylon.html">Xylaria hypoxylon</a>';
+                shroomFile = "Xylaria_hypoxylon";
+                break;
+            case "12":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/xylaria_polymorpha.html">Xylaria polymorpha</a>';
+                shroomFile = "Xylaria_polymorpha";
+                break;
+			case "13":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Amanita_ocreata">Amanita ocreata</a>';
+                shroomFile = "Amanita_ocreata";
+                break;
+			case "14":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Mycena_interrupta">Mycena interrupta</a>';
+                shroomFile = "Mycena_interrupta";
+                break;
+			case "15":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/omphalotus_illudens.html">Omphalotus illudens</a>';
+                shroomFile = "Omphalotus_illudens";
+                break;
+			case "16":
+                shroomName = '<a target="_blank" href="https://www.mushroomexpert.com/ramaria_stricta.html">Ramaria stricta</a>';
+                shroomFile = "Ramaria_stricta";
+                break;
+			case "17":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Lingzhi_(mushroom)">Reishi</a>';
+                shroomFile = "Reishi";
+                break;
+			case "18":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Roridomyces_austrororidus">Roridomyces austrororidus</a>';
+                shroomFile = "Roridomyces_austrororidus";
+                break;
+			case "19":
+                shroomName = '<a target="_blank" href="https://en.wikipedia.org/wiki/Russula_emetica">Russula emetica</a>';
+                shroomFile = "Russula_emetica";
+                break;
+            default:
+                shroomName = "mushroom";
+                shroomFile = "Amanita_muscaria";
+                break;
+        }
+
+        document.getElementById('shroom').innerHTML = shroomName;
+        document.getElementById('shroomImg').src = `https://shroom.ink/src/img/adoptables/${shroomFile}.webp`;
+
+    </script>
+</html>

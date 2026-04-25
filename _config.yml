@@ -15,7 +15,7 @@ collections :
         permalink: /:path
     decay    :
         output: true
-        permalink: /decay/:path/
+        permalink: /:path
     static      :
         output: true
         permalink: /:path

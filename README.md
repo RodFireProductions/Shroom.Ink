@@ -15,3 +15,7 @@ To-do:
     - [x] Adoptables Reformatted
 
 ![Shroom.Ink button](images/buttons/Shroom.Ink.gif)
+
+# License
+
+The code is under MIT. The artwork I've created is under CC BY-NC-SA 4.0.

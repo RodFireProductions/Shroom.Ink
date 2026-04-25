@@ -16,6 +16,6 @@ Rodrick's Unicorns is still under major development content-wise. The developmen
 
 Here are it's button(s) / banner(s):
 <div class="buttons">
-<a target="_blank" href="https://unicorns.shroom.ink"><img src="/images/buttons/RodricksUnicornsButton.gif"></a>
-<a target="_blank" href="https://unicorns.shroom.ink"><img src="/images/buttons/RodricksUnicornsBanner.gif"></a>
+<a target="_blank" href="https://unicorns.shroom.ink"><img src='{{ "src/img/buttons/RodricksUnicornsButton.gif" | relative_url }}'></a>
+<a target="_blank" href="https://unicorns.shroom.ink"><img src='{{ "src/img/banner/RodricksUnicornsBanner.gif" | relative_url }}'></a>
 </div>

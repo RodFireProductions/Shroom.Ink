@@ -1,10 +1,13 @@
 ---
 layout: page
 title: About Shroom.ink
-permalink: /decay/about/
+permalink: /about.html
 ---
 
-“What is *Shroom.Ink*?” you may be asking yourself. Well I, <a href="/decay/webmaster/">the webmaster</a>, am here you tell you.
+**This page hasn't been updated since 2023.** It only still exists for archival reasons.
+<hr>
+
+“What is *Shroom.Ink*?” you may be asking yourself. Well I, <a href="webmaster.html">the webmaster</a>, am here you tell you.
 
 ### The History
 We must start at the beginning. At first I only had one domain for my personal portfolio,
@@ -28,6 +31,6 @@ it is now.
 - I don't know what it is.
 
 I keep changing how this place looks like. This is how it looked when it was first reworked in December 2022:
-<img src="/images/thoughts/beginning.jpg">
+<img src="src/img/thoughts/beginning.jpg">
 
 <span style="color:var(--head-3);">Fun Fact:</span> I totally forgot to make an **about** page until mid February 2023, two months after making this site.

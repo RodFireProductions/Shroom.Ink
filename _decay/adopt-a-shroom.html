@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Adopt a Shroom!
-permalink: /decay/adopt-a-shroom/
+permalink: /adopt-a-shroom.html
+redirect_from:
+- /decay/adopt-a-shroom/
 ---
 
 <p>
@@ -17,7 +19,7 @@ permalink: /decay/adopt-a-shroom/
 {% assign sorted = site.data.shrooms | sort: "name" %}
 {% for shroom in sorted %}
     <div>
-        <img src="/images/adoptables/{{ shroom.name | replace: " ", "_" }}.png" alt="{{ shroom.name }}">
+        <img src="./src/img/adoptables/{{ shroom.name | replace: " ", "_" }}.png" alt="{{ shroom.name }}">
         <p class="center">
             <a target="_blank" href="{{ shroom.url }}">{{ shroom.name }}</a>
             {{ shroom.emoji }}
@@ -55,10 +57,10 @@ permalink: /decay/adopt-a-shroom/
 </div>
 
 <div class="button">
-    <a href="https://shroom.ink/decay/adopt-a-shroom/#hire-a-guard"><img src="/images/adoptables/hire-a-guard.gif" alt="Need a site protector? Hire a shroom!"></a>
+    <a href="https://shroom.ink/adopt-a-shroom/#hire-a-guard"><img src="./src/img/adoptables/hire-a-guard.gif" alt="Need a site protector? Hire a shroom!"></a>
 </div>
 
-<script src="/js/adoptables.js" charset="utf-8"></script>
+<script src="src/js/adoptables.js" charset="utf-8"></script>
 
 <div class="two_grid">
 <div class="col_1">
@@ -90,6 +92,15 @@ permalink: /decay/adopt-a-shroom/
         </li>
         <li>
             Blue Pinkgill
+        </li>
+        <li>
+            Tremella mesenterica
+        </li>
+        <li>
+            Spinellus fusiger
+        </li>
+        <li>
+            L. camphoratus or L. rubidus (Candy Cap)
         </li>
         <li>
             <a target="_blank" href="https://www.mushroomexpert.com/puffballs.html">Puffball</a>
