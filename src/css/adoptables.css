@@ -6,6 +6,11 @@
     grid-gap: 5px;
 }
 
+img {
+    width: 85%;
+    margin: auto;
+}
+
 #adoptShroom div {
     border: 2px dotted var(--head-1);
     padding: 3px 8px;

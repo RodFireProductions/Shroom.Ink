@@ -1,5 +1,5 @@
 ---
-permalink: guard.html
+permalink: guard.html/
 ---
 <!DOCTYPE html>
 <html lang="en-US" saved-theme="dark">
@@ -8,7 +8,8 @@ permalink: guard.html
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Shroom.Ink Webgarden</title>
 
-      <link rel="stylesheet" href="https://shroom.ink/css/main.css">
+      <link rel="stylesheet" href={{ "src/css/shroom.css" | relative_url }}>
+      <link rel="stylesheet" href={{ "src/css/adoptables.css" | relative_url }}>
       <style>
           body {
               background: var(--back);
@@ -23,7 +24,7 @@ permalink: guard.html
         </main>
     </body>
 
-    <script src="https://shroom.ink/js/urlvalue.js" charset="utf-8"></script>
+    <script src="https://shroom.ink/src/js/urlvalue.js" charset="utf-8"></script>
     <script>
         let values = urlValues();
         let shroomName = "";

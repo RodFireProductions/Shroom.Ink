@@ -11,7 +11,7 @@ To-do:
     - [ ] Graphics page
     - [x] Webmaster page
 
-![Shroom.Ink button](images/buttons/Shroom.Ink.gif)
+![Shroom.Ink button](src/img/Shroom.Ink.gif)
 
 # License
 
